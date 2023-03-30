@@ -6,8 +6,8 @@ metadata:
     app: mylogin
 spec: 
  type: NodePort 
-ports: 
-  - ports: 8080
+ ports: 
+  - port: 8080
     nodePort: 30001
     protocol: TCP 
 selector: 

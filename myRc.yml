@@ -11,7 +11,7 @@ spec:
   metadata: 
    labels: 
      app: mylogin 
-     version: 2.6.1 
+     version: 2.6.1
   spec:
    containers:
      - name: mylogin-container

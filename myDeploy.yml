@@ -5,17 +5,17 @@ metadata:
  labels:
   app: myjavaapp
  spec: 
-  replicas: 3
-  selector:
-   matchLabels:
-    app: myjavaapp
-template:
- metadata:
-  labels: 
-   app: myjavaapp
- spec:
- containers:
- - name: myjavaapp-container
-   image: kingsuresh/myjavaapp08jun:1
-   ports:
-    - containerPort: 8080
+   replicas: 3
+   selector:
+    matchLabels:
+     app: myjavaapp
+   template:
+    metadata:
+     labels: 
+      app: myjavaapp
+    spec:
+     containers:
+      - name: myjavaapp-container
+        image: kingsuresh/myjavaapp08jun:1
+        ports:
+        - containerPort: 8080

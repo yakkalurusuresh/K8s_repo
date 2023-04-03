@@ -9,11 +9,11 @@ metadata:
    selector: 
      matchLabels:
       app: myjavaapp
-templates:
- metadata: 
-  labels: 
-   app: myjavaapp
- spec: 
+  templates:
+   metadata: 
+    labels: 
+     app: myjavaapp
+   spec: 
   containers:
    - name: myjavaapp-container
      image: kingsuresh/myjavaapp08jun:1

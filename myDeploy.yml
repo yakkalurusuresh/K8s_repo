@@ -10,7 +10,7 @@ spec:
    matchLabels: 
      app: myjavaapp 
   template:
-   metadata: 
+    metadata: 
     labels: 
       app: myjavaapp 
   spec: 

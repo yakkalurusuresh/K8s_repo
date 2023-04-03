@@ -11,8 +11,8 @@ metadata:
       app: myjavaapp
   templates:
    metadata: 
-    labels: 
-     app: myjavaapp
+     labels: 
+      app: myjavaapp
    spec: 
     containers:
       - name: myjavaapp-container

@@ -1,9 +1,9 @@
 apiVersion: v1
-kind: Service
+kind: Service 
 metadata: 
  name: myjavaapp-svc
  labels:
-   name: myjavaapp  
+   name: myjavaapp 
 spec: 
   type: NodePort 
   ports:

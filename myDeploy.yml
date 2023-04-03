@@ -3,13 +3,13 @@ kind: Deployment
 metadata: 
   name: myjavaapp-deploy
   labels:
-   app: myjavaapp 
+    app: myjavaapp 
   spec: 
-  replicas: 3
-  selector: 
+   replicas: 3
+   selector: 
      matchLabels:
       app: myjavaapp
-  templates:
+   templates:
    metadata: 
      labels: 
       app: myjavaapp

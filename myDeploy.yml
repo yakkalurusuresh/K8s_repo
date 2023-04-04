@@ -5,7 +5,7 @@ metadata:
  labels:
   app: myjavaapp
 spec: 
-   replicas: 2
+   replicas: 3
    selector:
     matchLabels:
      app: myjavaapp
@@ -16,6 +16,6 @@ spec:
     spec:
      containers:
       - name: myjavaapp-container
-        image: kingsuresh/myjavaapp08jun:1
+        image: kingsuresh/myjavaimage04apr23:1
         ports:
         - containerPort: 8080
